@@ -1,7 +1,8 @@
-# 💻 Assignment Boilerplate
+# 🦸 Rivals Roster: Flexbox Layout
 
-A starting point for assignment and exercise repos. It includes submission instructions, editor and Git configuration,
-and a pull request template so every assignment works the same way.
+Rivals Roster is a two-page fan guide to the Marvel Rivals hero roster. The HTML and the colors, fonts, and spacing are
+already done, but every section is stacked in normal flow. Your job is to write the layout with Flexbox in
+`css/layout.css` so both pages match the finished screenshots.
 
 > [!NOTE]
 > `.editorconfig`, `.gitattributes`, `.gitignore`, `.noai`, and the `.github` and `.idea`

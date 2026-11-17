@@ -1,0 +1,243 @@
+/* ==========================================
+   base.css
+   Colors, fonts and spacing for Rivals Roster.
+
+   Don't edit this file.
+   Your work goes in css/layout.css.
+
+   This file has no layout rules on purpose:
+   no display: flex anywhere. Every section
+   starts stacked, in normal flow.
+   ========================================== */
+
+/* Base */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #0e1018;
+  color: #e9ebf2;
+  font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.6;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  color: #ffd23f;
+}
+
+h1,
+h2,
+h3,
+#featured p:first-child,
+#featured a {
+  font-family: "Oswald", "Arial Narrow", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  line-height: 1.1;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+h2 {
+  font-size: 1.75rem;
+  margin: 0 0 0.5rem;
+  color: #ffd23f;
+}
+
+main {
+  max-width: 70rem;
+  margin: 0 auto;
+  padding: 0 1.25rem;
+}
+
+/* Header */
+header {
+  padding: 1rem 1.25rem;
+  background-color: #161a26;
+  border-bottom: 3px solid #ffd23f;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  color: #e9ebf2;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+/* Purple panel (featured hero and profile card) */
+.panel {
+  background-color: #1b1730;
+  border: 1px solid #4b3f8f;  /* Nightcrawler purple */
+}
+
+/* Featured hero */
+#featured {
+  margin: 2rem 0 3rem;
+  padding: 1.25rem;
+}
+
+#featured img {
+  max-width: 20rem;
+}
+
+#featured p:first-child {
+  margin: 0 0 0.5rem;
+  color: #b9a7ff;
+}
+
+.alias {
+  margin: 0.25rem 0 1rem;
+  color: #b9b4d6;
+  font-style: italic;
+}
+
+#featured a {
+  display: inline-block;
+  padding: 0.625rem 1.25rem;
+  background-color: #ffd23f;
+  color: #0e1018;
+  text-decoration: none;
+}
+
+/* Role badges */
+.role-badge {
+  display: inline-block;
+  padding: 0.125rem 0.5rem;
+  color: #0e1018;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.vanguard {
+  background-color: #6fb6ff;
+}
+
+.duelist {
+  background-color: #ff7a7a;
+}
+
+.strategist {
+  background-color: #6fe3a8;
+}
+
+/* Roster */
+#roster > ul {
+  list-style: none;
+  margin: 1rem 0 3rem;
+  padding: 0;
+}
+
+#roster > ul > li {
+  max-width: 20rem;
+  margin-bottom: 1rem;
+  background-color: #161a26;
+  border: 1px solid #2a2f3f;
+}
+
+#roster img {
+  width: 100%;
+}
+
+#roster h3 {
+  margin: 0.75rem 0.75rem 0.25rem;
+  font-size: 1.125rem;
+}
+
+#roster li ul {
+  list-style: none;
+  margin: 0 0.75rem 0.75rem;
+  padding: 0;
+}
+
+.joined {
+  color: #9aa0b4;
+  font-size: 0.8125rem;
+}
+
+/* Footer */
+footer {
+  padding: 2rem 1.25rem;
+  background-color: #161a26;
+  border-top: 3px solid #ffd23f;
+  font-size: 0.875rem;
+}
+
+footer h2 {
+  font-size: 1.125rem;
+}
+
+/* ---------- Nightcrawler stats page ---------- */
+main > p {
+  margin: 1.5rem 0 0;
+}
+
+article {
+  margin: 1.5rem 0 3rem;
+}
+
+article .panel {
+  max-width: 22rem;
+  padding: 0 0 1.5rem;  /* no side padding, so the image touches the edges */
+  text-align: center;
+}
+
+article img {
+  width: 100%;
+}
+
+/* The text below the image keeps its padding */
+article h1,
+article .alias {
+  padding: 0 1.5rem;
+}
+
+article h1 {
+  margin-top: 1rem;
+}
+
+article h2 {
+  margin-top: 1.5rem;
+}
+
+dl {
+  margin: 1.5rem 0 0;
+}
+
+dl div {
+  margin-bottom: 0.75rem;
+  padding: 0.75rem 1rem;
+  background-color: #161a26;
+  border-left: 4px solid #6fe3a8;  /* Strategist green */
+}
+
+dt {
+  color: #9aa0b4;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+dd {
+  margin: 0;
+  font-family: "Oswald", "Arial Narrow", sans-serif;
+  font-size: 1.375rem;
+  text-transform: uppercase;
+}
