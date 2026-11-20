@@ -7,18 +7,6 @@ Season 11. The HTML and `css/base.css` are finished. `base.css` sets the colors,
 layout rules on purpose, so every section is stacked in normal flow. You'll write the layout with Flexbox in a new
 stylesheet, `css/layout.css`, until both pages match the screenshots below.
 
-## 🖼️ Preview
-
-This is what both pages should look like when you're done.
-
-### Home page
-
-![The finished home page: header with the logo left and nav right, the featured Nightcrawler panel with the portrait beside the text, the roster in rows of four cards with the last three cards stretched to fill the row, and a three-column footer](../images/final.png)
-
-### Nightcrawler page
-
-![The finished Nightcrawler page: the purple profile card on the left, the Hero File text and stat boxes on the right with four stats in a row and Voiced by filling the row below, and the three-column footer](../images/final-nightcrawler.png)
-
 ## 📋 Requirements
 
 ### Setup
@@ -52,6 +40,18 @@ This is what both pages should look like when you're done.
 - [ ] Use the existing elements, IDs, and classes as selectors. Don't add classes or IDs to the HTML
 - [ ] Comment each section of `layout.css` so it's clear which part of the page it lays out
 
+## 🖼️ Example Output
+
+This is what both pages should look like when you're done.
+
+### Home page
+
+![The finished home page: header with the logo left and nav right, the featured Nightcrawler panel with the portrait beside the text, the roster in rows of four cards with the last three cards stretched to fill the row, and a three-column footer](../images/final.png)
+
+### Nightcrawler page
+
+![The finished Nightcrawler page: the purple profile card on the left, the Hero File text and stat boxes on the right with four stats in a row and Voiced by filling the row below, and the three-column footer](../images/final-nightcrawler.png)
+
 ## 📂 Starter Files
 
 | File / Folder       | Purpose                                                                   |
@@ -82,7 +82,7 @@ This is what both pages should look like when you're done.
 
 ## 🆘 Getting Help
 
-<!-- Office hours, discussion board, tutoring center, etc. -->
+Ask during class or office hours, or post on the Canvas discussion board.
 
 ---
 
